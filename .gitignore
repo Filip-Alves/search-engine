@@ -1,0 +1,17 @@
+# Node.js (pour le frontend Angular)
+frontend/node_modules/
+
+# Build et dépendances (pour le backend Java)
+backend/target/
+
+# IDE et autres fichiers locaux
+.idea/
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs et fichiers temporaires
+*.log
+*.tmp

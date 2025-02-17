@@ -1,0 +1,11 @@
+<div class="mt-4">
+    <h3>Résultats</h3>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let doc of documents">
+        <h5>{{ doc.title }}</h5>
+        <p>{{ doc.content }}</p>
+        <small>Créé le : {{ doc.createdAt | date:'short' }}</small>
+      </li>
+    </ul>
+  </div>
+  
